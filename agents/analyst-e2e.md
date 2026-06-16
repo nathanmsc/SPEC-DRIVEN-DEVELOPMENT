@@ -1,5 +1,5 @@
 ---
-name: qa-e2e-analyst
+name: analyst-e2e
 description: "Use this agent when you need to create, review, or improve end-to-end tests for the FastAPI application. This agent should be called after significant features are implemented, before releases, or when the user requests test coverage analysis or test failures investigation."
 model: sonnet
 memory: project
