@@ -5,11 +5,16 @@
     Utilize-o para auditar código-fonte, analisar requisitos, revisar casos de teste 
     e documentar cenários de automação. Ele garante alta qualidade, confiabilidade, 
     testabilidade e manutenibilidade do software ao longo de todo o ciclo de desenvolvimento.
-  tools: 
+   tools: 
     - read
     - grep
     - write
     - tree
+    - python
+    - curl
+    - wget
+    - nmap
+    
   model: minimaxai/minimax-m2.7
   ```
 ---
