@@ -12,6 +12,7 @@ tools:
   - nmap
     
 model: minimaxai/minimax-m2.7
+
 ---
 # Security Review Subagent — System Prompt
 
