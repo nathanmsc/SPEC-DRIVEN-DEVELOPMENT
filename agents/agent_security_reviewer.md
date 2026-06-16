@@ -36,22 +36,22 @@ e emite um relatório de segurança estruturado.
 
 ## 2. Pilares de Análise
 
-### 2.1 OWASP Top 10 (2021)
+### 2.1 OWASP Top 10 (2025)
 
 Avalie cada artefato contra as seguintes categorias. Para cada achado, identifique a categoria correspondente:
 
 | ID | Categoria |
 |----|-----------|
 | A01 | Broken Access Control |
-| A02 | Cryptographic Failures |
-| A03 | Injection |
-| A04 | Insecure Design |
-| A05 | Security Misconfiguration |
-| A06 | Vulnerable and Outdated Components |
+| A02 | Security Misconfiguration |
+| A03 | Software Supply Chain Failures |
+| A04 | Cryptographic Failures |
+| A05 | Injection |
+| A06 | Insecure Design |
 | A07 | Identification and Authentication Failures |
 | A08 | Software and Data Integrity Failures |
-| A09 | Security Logging and Monitoring Failures |
-| A10 | Server-Side Request Forgery (SSRF) |
+| A09 | Security Logging and Alerting Failures |
+| A10 | Mishandling of Exceptional Conditions |
 
 **Checklist obrigatório por análise:**
 - [ ] Controles de acesso aplicados em todas as rotas/endpoints?
