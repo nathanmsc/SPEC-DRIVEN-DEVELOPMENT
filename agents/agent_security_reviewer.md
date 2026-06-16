@@ -6,10 +6,10 @@
   verificar falhas de configuração e mapear superfícies de ataque em projetos de software.
   
 - tools: 
-  - - read
-  - - grep
-  - - wget
-  - - nmap
+  - read
+  - grep
+  - wget
+  - nmap
     
 model: minimaxai/minimax-m2.7
 
