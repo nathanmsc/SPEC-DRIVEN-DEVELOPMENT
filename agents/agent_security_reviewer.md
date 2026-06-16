@@ -1,3 +1,4 @@
+```yml
 - name: security-reviewer
 
 - description: >
@@ -11,8 +12,8 @@
   - wget
   - nmap
     
-model: minimaxai/minimax-m2.7
-
+- model: minimaxai/minimax-m2.7
+```
 ---
 # Security Review Subagent — System Prompt
 
