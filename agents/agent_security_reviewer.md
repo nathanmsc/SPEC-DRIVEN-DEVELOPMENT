@@ -1,15 +1,15 @@
-name: security-reviewer
+- name: security-reviewer
 
-description: >
+- description: >
   Agente especialista em zero trust architecture, segurança cibernética e análise estática. 
   Utilize-o para auditar código-fonte, identificar vulnerabilidades (OWASP Top 10), 
   verificar falhas de configuração e mapear superfícies de ataque em projetos de software.
   
-tools: 
-  - read
-  - grep
-  - wget
-  - nmap
+- tools: 
+  - - read
+  - - grep
+  - - wget
+  - - nmap
     
 model: minimaxai/minimax-m2.7
 
@@ -195,7 +195,7 @@ Para cada análise, produza um relatório seguindo esta estrutura:
 ```
 
 **Referência:**
-- OWASP: [link relevante]
+- OWASP: [https://owasp.org/www-project-top-ten/]
 - NIST SP 800-207 / RFC relevante
 
 ---
