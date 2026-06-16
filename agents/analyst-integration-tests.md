@@ -1,4 +1,4 @@
-```yml
+---
 - name: analyst-integration-tests
   description: >
     Agente especialista em QA focado em testes de integração.
@@ -14,7 +14,6 @@
     - curl
     - wget
   model: minimaxai/minimax-m2.7
-```
 ---
 # Agente Especialista em Testes de Integração
 
